@@ -6,7 +6,7 @@ public class Loop {
         Scanner leitura = new Scanner(System.in);
 
         double media = 0;
-        double nota = 0;
+        double nota;
 
 
 
@@ -16,7 +16,7 @@ public class Loop {
             media += nota;
         }
 
-        System.out.println("Media = " + media/3 );
+        System.out.println("Media de avaliações = " + media/3 );
 
     }
 }
