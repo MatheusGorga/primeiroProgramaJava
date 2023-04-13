@@ -15,7 +15,7 @@ public class JogoAdivinhacao {
 
             if (numeroDigitado == numeroGerado) {
                 System.out.println("Parabéns, você acertou o número em " + tentativas + " tentativas!");
-                break; // interrompe o loop while
+                break; // interr    ompe o loop while
             } else if (numeroDigitado < numeroGerado) {
                 System.out.println("O número digitado é menor que o número gerado.");
             } else {
